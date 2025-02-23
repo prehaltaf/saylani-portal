@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.saylani-logo {
+    padding: 20px 20px 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.icons img {
+    flex-direction: row;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-heading {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.portal-button {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #0d6db7;
+    border-radius: 20px;
+    color: #0d6db7;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header p {
+    color: gray;
+}
+
+.tabs {
+    padding: 15px;
+}
+
+.tabs button {
+    padding: 15px;
+    text-align: center;
+    color: #0d6db7;
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.tabs button:hover {
+    color: rgb(155, 231, 40);
+}
+
+form {
+    padding: 65px;
+}
+
+label {
+    color: #0d6db7;
+}
+
+select {
+    padding: 0 11px;
+    align-items: center;
+    border-color: #8dc63f;
+    border-radius: 5px;
+    display: flex;
+    height: 54px;
+    justify-content: center;
+    width: 100%;
+    color: #666;
+}
+select:hover{
+    border-color: #0d6db7;
+}
+input {
+    padding: 0 11px;
+    align-items: center;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    display: flex;
+    height: 54px;
+    justify-content: center;
+    width: 100%;
+    color: #666;
+}
+input:hover {
+    border-color: #0d6db7;
+}
+.upload-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upload-div p {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.upload-button {
+    border: 1px dashed gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+ol {
+    padding: 0px 80px;
+    font-size: 14px;
+}
+
+li {
+    line-height: 20px;
+}
+
+.robot {
+    padding: 0px 70px;
+    height: 150px;
+}
+
+.submit-div {
+    padding: 0px 70px 30px;
+}
+
+.submit {
+    width: 100%;
+    background-color: #0d6db7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
